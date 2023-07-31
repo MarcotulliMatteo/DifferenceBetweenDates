@@ -1,9 +1,3 @@
-Time needed to elaborate the algorithm: 3 hours approximately
-
-Time needed to develop the solution for the challenge: 1:30 hours
-
---------------------------------------------------------------
-
 Code explainations:
 
 - Calculate months difference:
@@ -12,14 +6,14 @@ If the difference of the months >= 0 then removed the last month
 
 otherwise
 
-we calculate the difference checking the months left from the end of the first year - 1 adding 
+calculate the difference checking the months left from the end of the first year - 1 adding 
 the months from the start of the year of the second date
 
 after that, 
 
 case 1: checked if the day of second date is >= the day of the first date, added a month
 
-case 2: checked month of date1 and date2 are the same but the firstDay > secondDay we add 12 month (not 11 because the current month count is -1)
+case 2: checked month of date1 and date2 are the same but the firstDay > secondDay added 12 month (not 11 because the current month count is -1)
 
 - Calculate years difference:
 
